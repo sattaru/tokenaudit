@@ -1,0 +1,189 @@
+{
+  "generated": "2026-10-27T20:16:25+00:00",
+  "period_start": "2026-10-22",
+  "period_end": "2026-10-24",
+  "total_cost": 137.29,
+  "total_tokens": 49514400,
+  "unpriced_events": 0,
+  "by_client": {
+    "claude-code": {
+      "cost": 137.292,
+      "tokens": 49514400
+    }
+  },
+  "by_model": {
+    "claude-opus-4-5-20251101": {
+      "cost": 137.292,
+      "tokens": 49514400
+    }
+  },
+  "by_tag": {
+    "(none)": {
+      "cost": 137.292,
+      "tokens": 49514400
+    }
+  },
+  "by_day": {
+    "2026-10-22": 45.76,
+    "2026-10-23": 45.76,
+    "2026-10-24": 45.76
+  },
+  "token_mix": {
+    "input": 24002400,
+    "cache_read": 24960000,
+    "cache_write": 480000,
+    "output": 72000,
+    "reasoning": 0
+  },
+  "projects": [
+    {
+      "project": "project-6be31",
+      "cost": 130.74,
+      "tokens": 40956000,
+      "sessions": 3,
+      "turns": 120,
+      "first": "2026-10-22",
+      "last": "2026-10-24",
+      "clients": "claude-code",
+      "top_model": "claude-opus-4-5-20251101",
+      "cache_hit": 0.408,
+      "commits": 0,
+      "lines_changed": 0,
+      "cost_per_commit": null,
+      "declared_value": 0.0,
+      "avoidable": 62.43,
+      "score": 26,
+      "verdict": "Likely waste"
+    },
+    {
+      "project": "project-99211",
+      "cost": 6.5520000000000005,
+      "tokens": 8558400,
+      "sessions": 3,
+      "turns": 120,
+      "first": "2026-10-22",
+      "last": "2026-10-24",
+      "clients": "claude-code",
+      "top_model": "claude-opus-4-5-20251101",
+      "cache_hit": 0.972,
+      "commits": 3,
+      "lines_changed": 60,
+      "cost_per_commit": 2.18,
+      "declared_value": 0.0,
+      "avoidable": 0,
+      "score": 85,
+      "verdict": "Worth it"
+    }
+  ],
+  "tools": [
+    {
+      "tool": "Bash",
+      "calls": 120,
+      "tokens_added": 660000,
+      "carry_cost": 10.72
+    },
+    {
+      "tool": "Read",
+      "calls": 120,
+      "tokens_added": 660000,
+      "carry_cost": 10.4
+    }
+  ],
+  "findings": [
+    {
+      "id": "cache-miss",
+      "title": "project-6be31: only 41% of input served from cache on claude-opus-4-5-20251101",
+      "severity": "high",
+      "savings_usd": 54.0,
+      "evidence": "24,000,000 uncached input tokens vs 16,680,000 cache reads.",
+      "fix": "Put stable content (system prompt, tool defs, docs) first and unchanged; add cache_control breakpoints (Anthropic) or keep prefixes byte-identical (OpenAI/Gemini implicit caching). Avoid timestamps or IDs at the top of prompts.",
+      "scope": "project-6be31"
+    },
+    {
+      "id": "no-outcome",
+      "title": "3 sessions ($130.74) ended with no commit",
+      "severity": "medium",
+      "savings_usd": 39.22,
+      "evidence": "Examples: project-6be31 2026-10-22 $43.58; project-6be31 2026-10-23 $43.58; project-6be31 2026-10-24 $43.58",
+      "fix": "Not all of this is waste (research, reviews, planning). Tag real outcomes with `tokenaudit outcome add`, and for sessions that drift, write the goal in the first message and stop when it is met.",
+      "scope": ""
+    },
+    {
+      "id": "context-bloat",
+      "title": "project-6be31: 3 long sessions carried >120k tokens of context per turn",
+      "severity": "medium",
+      "savings_usd": 8.43,
+      "evidence": "Every turn re-reads the whole conversation. Past ~60k tokens most of that is stale.",
+      "fix": "Start a fresh session per task (/clear), /compact at natural breakpoints, keep CLAUDE.md short, and push exploration into subagents so their reads never enter the main context.",
+      "scope": "project-6be31"
+    },
+    {
+      "id": "tool-carry",
+      "title": "Tool output from Bash is your biggest hidden cost",
+      "severity": "medium",
+      "savings_usd": 4.29,
+      "evidence": "120 calls pushed ~660,000 tokens into context; re-reading them on later turns cost about $10.72.",
+      "fix": "Pipe noisy commands through `| tail -50` or `| head`, run tests with quiet flags, and redirect build logs to a file you grep instead of dumping them into context.",
+      "scope": "Bash"
+    }
+  ],
+  "sessions_top": [
+    {
+      "session": "\u2026",
+      "project": "project-6be31",
+      "client": "claude-code",
+      "date": "2026-10-22",
+      "turns": 40,
+      "cost": 43.58,
+      "peak_context": 380000
+    },
+    {
+      "session": "\u2026",
+      "project": "project-6be31",
+      "client": "claude-code",
+      "date": "2026-10-23",
+      "turns": 40,
+      "cost": 43.58,
+      "peak_context": 380000
+    },
+    {
+      "session": "\u2026",
+      "project": "project-6be31",
+      "client": "claude-code",
+      "date": "2026-10-24",
+      "turns": 40,
+      "cost": 43.58,
+      "peak_context": 380000
+    },
+    {
+      "session": "\u2026",
+      "project": "project-99211",
+      "client": "claude-code",
+      "date": "2026-10-22",
+      "turns": 40,
+      "cost": 2.18,
+      "peak_context": 110020
+    },
+    {
+      "session": "\u2026",
+      "project": "project-99211",
+      "client": "claude-code",
+      "date": "2026-10-23",
+      "turns": 40,
+      "cost": 2.18,
+      "peak_context": 110020
+    },
+    {
+      "session": "\u2026",
+      "project": "project-99211",
+      "client": "claude-code",
+      "date": "2026-10-24",
+      "turns": 40,
+      "cost": 2.18,
+      "peak_context": 110020
+    }
+  ],
+  "notes": [
+    "Costs are list-price estimates. Subscription plans (Claude Max, ChatGPT Pro) bill a flat fee; read the dollar figures as value consumed, not cash spent."
+  ]
+}

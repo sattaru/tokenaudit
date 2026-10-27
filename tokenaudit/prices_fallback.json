@@ -1,0 +1,1196 @@
+{
+"_fetched": "2026-10-27",
+"_source": "BerriAI/litellm model_prices_and_context_window.json",
+"models": {
+"chat-latest": {
+"cr": 5e-07,
+"cw": null,
+"in": 5e-06,
+"out": 3e-05,
+"p": "openai"
+},
+"claude-fable-5": {
+"cr": 1e-06,
+"cw": 1.25e-05,
+"in": 1e-05,
+"out": 5e-05,
+"p": "anthropic"
+},
+"claude-fable-5-1": {
+"cr": 2.5e-07,
+"cw": 1.25e-05,
+"in": 1e-05,
+"out": 5e-05,
+"p": "anthropic"
+},
+"claude-haiku-4-5": {
+"cr": 1e-07,
+"cw": 1.25e-06,
+"in": 1e-06,
+"out": 5e-06,
+"p": "anthropic"
+},
+"claude-haiku-4-5-20251001": {
+"cr": 1e-07,
+"cw": 1.25e-06,
+"in": 1e-06,
+"out": 5e-06,
+"p": "anthropic"
+},
+"claude-haiku-5-5": {
+"cr": 1e-08,
+"cw": 1.25e-07,
+"in": 1e-07,
+"out": 5e-07,
+"p": "anthropic"
+},
+"claude-mythos-5": {
+"cr": 1e-06,
+"cw": 1.25e-05,
+"in": 1e-05,
+"out": 5e-05,
+"p": "anthropic"
+},
+"claude-mythos-5-1": {
+"cr": 2.5e-07,
+"cw": 1.25e-05,
+"in": 1e-05,
+"out": 5e-05,
+"p": "anthropic"
+},
+"claude-mythos-preview": {
+"cr": 1e-06,
+"cw": 1.25e-05,
+"in": 1e-05,
+"out": 5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-5": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-5-20251101": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-6": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-6-20260205": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-7": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-7-20260416": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-4-8": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-5": {
+"cr": 5e-07,
+"cw": 6.25e-06,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "anthropic"
+},
+"claude-opus-5-5": {
+"cr": 2e-07,
+"cw": 5e-06,
+"in": 4e-06,
+"out": 2e-05,
+"p": "anthropic"
+},
+"claude-sonnet-4-5": {
+"cr": 3e-07,
+"cw": 3.75e-06,
+"in": 3e-06,
+"out": 1.5e-05,
+"p": "anthropic"
+},
+"claude-sonnet-4-5-20250929": {
+"cr": 3e-07,
+"cw": 3.75e-06,
+"in": 3e-06,
+"out": 1.5e-05,
+"p": "anthropic"
+},
+"claude-sonnet-4-6": {
+"cr": 3e-07,
+"cw": 3.75e-06,
+"in": 3e-06,
+"out": 1.5e-05,
+"p": "anthropic"
+},
+"claude-sonnet-5": {
+"cr": 2e-07,
+"cw": 2.5e-06,
+"in": 2e-06,
+"out": 1e-05,
+"p": "anthropic"
+},
+"claude-sonnet-5-5": {
+"cr": 1e-07,
+"cw": 2.5e-06,
+"in": 2e-06,
+"out": 1e-05,
+"p": "anthropic"
+},
+"computer-use-preview": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 1.2e-05,
+"p": "openai"
+},
+"computer-use-preview-2025-03-11": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 1.2e-05,
+"p": "openai"
+},
+"daybreak-blue-latest": {
+"cr": 4e-07,
+"cw": 5e-06,
+"in": 4e-06,
+"out": 2e-05,
+"p": "openai"
+},
+"daybreak-red-latest": {
+"cr": 1.25e-06,
+"cw": 1.5625e-05,
+"in": 1.25e-05,
+"out": 7.5e-05,
+"p": "openai"
+},
+"deep-research-pro-preview-12-2025": {
+"cr": 2e-07,
+"cw": null,
+"in": 2e-06,
+"out": 1.2e-05,
+"p": "vertex_ai-language-models"
+},
+"ft:gpt-3.5-turbo": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 6e-06,
+"p": "openai"
+},
+"ft:gpt-3.5-turbo-0125": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 6e-06,
+"p": "openai"
+},
+"ft:gpt-3.5-turbo-0613": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 6e-06,
+"p": "openai"
+},
+"ft:gpt-3.5-turbo-1106": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 6e-06,
+"p": "openai"
+},
+"ft:gpt-4-0613": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 6e-05,
+"p": "openai"
+},
+"ft:gpt-4.1-2025-04-14": {
+"cr": 7.5e-07,
+"cw": null,
+"in": 3e-06,
+"out": 1.2e-05,
+"p": "openai"
+},
+"ft:gpt-4.1-mini-2025-04-14": {
+"cr": 2e-07,
+"cw": null,
+"in": 8e-07,
+"out": 3.2e-06,
+"p": "openai"
+},
+"ft:gpt-4.1-nano-2025-04-14": {
+"cr": 5e-08,
+"cw": null,
+"in": 2e-07,
+"out": 8e-07,
+"p": "openai"
+},
+"ft:gpt-4o-2024-08-06": {
+"cr": 1.875e-06,
+"cw": null,
+"in": 3.75e-06,
+"out": 1.5e-05,
+"p": "openai"
+},
+"ft:gpt-4o-2024-11-20": {
+"cr": null,
+"cw": 1.875e-06,
+"in": 3.75e-06,
+"out": 1.5e-05,
+"p": "openai"
+},
+"ft:gpt-4o-mini-2024-07-18": {
+"cr": 1.5e-07,
+"cw": null,
+"in": 3e-07,
+"out": 1.2e-06,
+"p": "openai"
+},
+"ft:o4-mini-2025-04-16": {
+"cr": 1e-06,
+"cw": null,
+"in": 4e-06,
+"out": 1.6e-05,
+"p": "openai"
+},
+"gemini-2.5-computer-use-preview-10-2025": {
+"cr": null,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "vertex_ai-language-models"
+},
+"gemini-2.5-flash": {
+"cr": 3e-08,
+"cw": null,
+"in": 3e-07,
+"out": 2.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-2.5-flash-lite": {
+"cr": 1e-08,
+"cw": null,
+"in": 1e-07,
+"out": 4e-07,
+"p": "vertex_ai-language-models"
+},
+"gemini-2.5-flash-lite-preview-09-2025": {
+"cr": 1e-08,
+"cw": null,
+"in": 1e-07,
+"out": 4e-07,
+"p": "vertex_ai-language-models"
+},
+"gemini-2.5-flash-preview-09-2025": {
+"cr": 3e-08,
+"cw": null,
+"in": 3e-07,
+"out": 2.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-2.5-pro": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "vertex_ai-language-models"
+},
+"gemini-2.5-pro-preview-tts": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1e-06,
+"out": 2e-05,
+"p": "vertex_ai-language-models"
+},
+"gemini-3-flash-preview": {
+"cr": 5e-08,
+"cw": null,
+"in": 5e-07,
+"out": 3e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.1-flash-lite": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 2.5e-07,
+"out": 1.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.1-flash-lite-preview": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 2.5e-07,
+"out": 1.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.1-pro-preview": {
+"cr": 2e-07,
+"cw": null,
+"in": 2e-06,
+"out": 1.2e-05,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.1-pro-preview-customtools": {
+"cr": 2e-07,
+"cw": null,
+"in": 2e-06,
+"out": 1.2e-05,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.5-flash": {
+"cr": 1.5e-07,
+"cw": null,
+"in": 1.5e-06,
+"out": 9e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.5-flash-lite": {
+"cr": 3e-08,
+"cw": null,
+"in": 3e-07,
+"out": 2.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.6-flash": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 7.5e-07,
+"out": 3.75e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.7-flash": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 7.5e-07,
+"out": 3.75e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.8-flash": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 7.5e-07,
+"out": 3.75e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-3.8-flash-cyber": {
+"cr": 1.5e-07,
+"cw": null,
+"in": 1.5e-06,
+"out": 7.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-exp-1206": {
+"cr": 3e-08,
+"cw": null,
+"in": 3e-07,
+"out": 2.5e-06,
+"p": "gemini"
+},
+"gemini-flash-latest": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 7.5e-07,
+"out": 3.75e-06,
+"p": "gemini"
+},
+"gemini-flash-lite-latest": {
+"cr": 3e-08,
+"cw": null,
+"in": 3e-07,
+"out": 2.5e-06,
+"p": "gemini"
+},
+"gemini-omni-flash-preview": {
+"cr": null,
+"cw": null,
+"in": 1.5e-06,
+"out": 9e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-pro-latest": {
+"cr": 2e-07,
+"cw": null,
+"in": 2e-06,
+"out": 1.2e-05,
+"p": "gemini"
+},
+"gemini-robotics-er-1.5-preview": {
+"cr": 0,
+"cw": null,
+"in": 3e-07,
+"out": 2.5e-06,
+"p": "vertex_ai-language-models"
+},
+"gemini-robotics-er-2-preview": {
+"cr": 1e-07,
+"cw": null,
+"in": 1e-06,
+"out": 5e-06,
+"p": "vertex_ai-language-models"
+},
+"gpt-3.5-turbo": {
+"cr": null,
+"cw": null,
+"in": 5e-07,
+"out": 1.5e-06,
+"p": "openai"
+},
+"gpt-3.5-turbo-0125": {
+"cr": null,
+"cw": null,
+"in": 5e-07,
+"out": 1.5e-06,
+"p": "openai"
+},
+"gpt-3.5-turbo-1106": {
+"cr": null,
+"cw": null,
+"in": 1e-06,
+"out": 2e-06,
+"p": "openai"
+},
+"gpt-3.5-turbo-16k": {
+"cr": null,
+"cw": null,
+"in": 3e-06,
+"out": 4e-06,
+"p": "openai"
+},
+"gpt-4": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 6e-05,
+"p": "openai"
+},
+"gpt-4-0613": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 6e-05,
+"p": "openai"
+},
+"gpt-4-1106-preview": {
+"cr": null,
+"cw": null,
+"in": 1e-05,
+"out": 3e-05,
+"p": "openai"
+},
+"gpt-4-turbo": {
+"cr": null,
+"cw": null,
+"in": 1e-05,
+"out": 3e-05,
+"p": "openai"
+},
+"gpt-4-turbo-2024-04-09": {
+"cr": null,
+"cw": null,
+"in": 1e-05,
+"out": 3e-05,
+"p": "openai"
+},
+"gpt-4.1": {
+"cr": 5e-07,
+"cw": null,
+"in": 2e-06,
+"out": 8e-06,
+"p": "openai"
+},
+"gpt-4.1-2025-04-14": {
+"cr": 5e-07,
+"cw": null,
+"in": 2e-06,
+"out": 8e-06,
+"p": "openai"
+},
+"gpt-4.1-mini": {
+"cr": 1e-07,
+"cw": null,
+"in": 4e-07,
+"out": 1.6e-06,
+"p": "openai"
+},
+"gpt-4.1-mini-2025-04-14": {
+"cr": 1e-07,
+"cw": null,
+"in": 4e-07,
+"out": 1.6e-06,
+"p": "openai"
+},
+"gpt-4.1-nano": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 1e-07,
+"out": 4e-07,
+"p": "openai"
+},
+"gpt-4.1-nano-2025-04-14": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 1e-07,
+"out": 4e-07,
+"p": "openai"
+},
+"gpt-4o": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-4o-2024-05-13": {
+"cr": null,
+"cw": null,
+"in": 5e-06,
+"out": 1.5e-05,
+"p": "openai"
+},
+"gpt-4o-2024-08-06": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-4o-2024-11-20": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-4o-audio-preview-2024-12-17": {
+"cr": null,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-4o-audio-preview-2025-06-03": {
+"cr": null,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-4o-mini": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 1.5e-07,
+"out": 6e-07,
+"p": "openai"
+},
+"gpt-4o-mini-2024-07-18": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 1.5e-07,
+"out": 6e-07,
+"p": "openai"
+},
+"gpt-4o-mini-audio-preview-2024-12-17": {
+"cr": null,
+"cw": null,
+"in": 1.5e-07,
+"out": 6e-07,
+"p": "openai"
+},
+"gpt-4o-mini-search-preview": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 1.5e-07,
+"out": 6e-07,
+"p": "openai"
+},
+"gpt-4o-mini-search-preview-2025-03-11": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 1.5e-07,
+"out": 6e-07,
+"p": "openai"
+},
+"gpt-4o-search-preview": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-4o-search-preview-2025-03-11": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5-2025-08-07": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5-chat": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5-chat-latest": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5-codex": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5-mini": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 2.5e-07,
+"out": 2e-06,
+"p": "openai"
+},
+"gpt-5-mini-2025-08-07": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 2.5e-07,
+"out": 2e-06,
+"p": "openai"
+},
+"gpt-5-nano": {
+"cr": 5e-09,
+"cw": null,
+"in": 5e-08,
+"out": 4e-07,
+"p": "openai"
+},
+"gpt-5-nano-2025-08-07": {
+"cr": 5e-09,
+"cw": null,
+"in": 5e-08,
+"out": 4e-07,
+"p": "openai"
+},
+"gpt-5-pro": {
+"cr": null,
+"cw": null,
+"in": 1.5e-05,
+"out": 0.00012,
+"p": "openai"
+},
+"gpt-5-pro-2025-10-06": {
+"cr": null,
+"cw": null,
+"in": 1.5e-05,
+"out": 0.00012,
+"p": "openai"
+},
+"gpt-5-search-api": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5-search-api-2025-10-14": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5.1": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5.1-2025-11-13": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5.1-chat-latest": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5.1-codex": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5.1-codex-max": {
+"cr": 1.25e-07,
+"cw": null,
+"in": 1.25e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-5.1-codex-mini": {
+"cr": 2.5e-08,
+"cw": null,
+"in": 2.5e-07,
+"out": 2e-06,
+"p": "openai"
+},
+"gpt-5.2": {
+"cr": 1.75e-07,
+"cw": null,
+"in": 1.75e-06,
+"out": 1.4e-05,
+"p": "openai"
+},
+"gpt-5.2-2025-12-11": {
+"cr": 1.75e-07,
+"cw": null,
+"in": 1.75e-06,
+"out": 1.4e-05,
+"p": "openai"
+},
+"gpt-5.2-chat-latest": {
+"cr": 1.75e-07,
+"cw": null,
+"in": 1.75e-06,
+"out": 1.4e-05,
+"p": "openai"
+},
+"gpt-5.2-codex": {
+"cr": 1.75e-07,
+"cw": null,
+"in": 1.75e-06,
+"out": 1.4e-05,
+"p": "openai"
+},
+"gpt-5.2-pro": {
+"cr": null,
+"cw": null,
+"in": 2.1e-05,
+"out": 0.000168,
+"p": "openai"
+},
+"gpt-5.2-pro-2025-12-11": {
+"cr": null,
+"cw": null,
+"in": 2.1e-05,
+"out": 0.000168,
+"p": "openai"
+},
+"gpt-5.3-chat-latest": {
+"cr": 1.75e-07,
+"cw": null,
+"in": 1.75e-06,
+"out": 1.4e-05,
+"p": "openai"
+},
+"gpt-5.3-codex": {
+"cr": 1.75e-07,
+"cw": null,
+"in": 1.75e-06,
+"out": 1.4e-05,
+"p": "openai"
+},
+"gpt-5.4": {
+"cr": 2.5e-07,
+"cw": null,
+"in": 2.5e-06,
+"out": 1.5e-05,
+"p": "openai"
+},
+"gpt-5.4-2026-03-05": {
+"cr": 2.5e-07,
+"cw": null,
+"in": 2.5e-06,
+"out": 1.5e-05,
+"p": "openai"
+},
+"gpt-5.4-mini": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 7.5e-07,
+"out": 4.5e-06,
+"p": "openai"
+},
+"gpt-5.4-mini-2026-03-17": {
+"cr": 7.5e-08,
+"cw": null,
+"in": 7.5e-07,
+"out": 4.5e-06,
+"p": "openai"
+},
+"gpt-5.4-nano": {
+"cr": 2e-08,
+"cw": null,
+"in": 2e-07,
+"out": 1.25e-06,
+"p": "openai"
+},
+"gpt-5.4-nano-2026-03-17": {
+"cr": 2e-08,
+"cw": null,
+"in": 2e-07,
+"out": 1.25e-06,
+"p": "openai"
+},
+"gpt-5.4-pro": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 0.00018,
+"p": "openai"
+},
+"gpt-5.4-pro-2026-03-05": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 0.00018,
+"p": "openai"
+},
+"gpt-5.5": {
+"cr": 5e-07,
+"cw": null,
+"in": 5e-06,
+"out": 3e-05,
+"p": "openai"
+},
+"gpt-5.5-2026-04-23": {
+"cr": 5e-07,
+"cw": null,
+"in": 5e-06,
+"out": 3e-05,
+"p": "openai"
+},
+"gpt-5.5-cyber": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 1.25e-05,
+"out": 7.5e-05,
+"p": "openai"
+},
+"gpt-5.5-cyber-preview": {
+"cr": 1.25e-06,
+"cw": null,
+"in": 1.25e-05,
+"out": 7.5e-05,
+"p": "openai"
+},
+"gpt-5.5-pro": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 0.00018,
+"p": "openai"
+},
+"gpt-5.5-pro-2026-04-23": {
+"cr": null,
+"cw": null,
+"in": 3e-05,
+"out": 0.00018,
+"p": "openai"
+},
+"gpt-5.6": {
+"cr": 4e-07,
+"cw": 5e-06,
+"in": 4e-06,
+"out": 2e-05,
+"p": "openai"
+},
+"gpt-5.6-cyber": {
+"cr": 1.25e-06,
+"cw": 1.5625e-05,
+"in": 1.25e-05,
+"out": 7.5e-05,
+"p": "openai"
+},
+"gpt-5.6-luna": {
+"cr": 2e-08,
+"cw": 2.5e-07,
+"in": 2e-07,
+"out": 1.2e-06,
+"p": "openai"
+},
+"gpt-5.6-sol": {
+"cr": 4e-07,
+"cw": 5e-06,
+"in": 4e-06,
+"out": 2e-05,
+"p": "openai"
+},
+"gpt-5.6-terra": {
+"cr": 2e-07,
+"cw": 2.5e-06,
+"in": 2e-06,
+"out": 1.2e-05,
+"p": "openai"
+},
+"gpt-6-astra": {
+"cr": 1e-06,
+"cw": 1.25e-05,
+"in": 1e-05,
+"out": 5e-05,
+"p": "openai"
+},
+"gpt-6-luna": {
+"cr": 1e-08,
+"cw": 1.25e-07,
+"in": 1e-07,
+"out": 5e-07,
+"p": "openai"
+},
+"gpt-6-sol": {
+"cr": 2e-07,
+"cw": 2.5e-06,
+"in": 2e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-6.1-sol": {
+"cr": 1e-07,
+"cw": 2.5e-06,
+"in": 2e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-6.1-terra": {
+"cr": 5e-08,
+"cw": 1.25e-06,
+"in": 1e-06,
+"out": 5e-06,
+"p": "openai"
+},
+"gpt-audio": {
+"cr": null,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-audio-1.5": {
+"cr": null,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-audio-2025-08-28": {
+"cr": null,
+"cw": null,
+"in": 2.5e-06,
+"out": 1e-05,
+"p": "openai"
+},
+"gpt-audio-mini": {
+"cr": null,
+"cw": null,
+"in": 6e-07,
+"out": 2.4e-06,
+"p": "openai"
+},
+"gpt-audio-mini-2025-10-06": {
+"cr": null,
+"cw": null,
+"in": 6e-07,
+"out": 2.4e-06,
+"p": "openai"
+},
+"gpt-audio-mini-2025-12-15": {
+"cr": null,
+"cw": null,
+"in": 6e-07,
+"out": 2.4e-06,
+"p": "openai"
+},
+"gpt-daybreak-blue-latest": {
+"cr": 4e-07,
+"cw": 5e-06,
+"in": 4e-06,
+"out": 2e-05,
+"p": "openai"
+},
+"gpt-daybreak-red-latest": {
+"cr": 1.25e-06,
+"cw": 1.5625e-05,
+"in": 1.25e-05,
+"out": 7.5e-05,
+"p": "openai"
+},
+"gpt-rosalind-discovery": {
+"cr": 5e-07,
+"cw": null,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "openai"
+},
+"gpt-rosalind-research": {
+"cr": 5e-07,
+"cw": null,
+"in": 5e-06,
+"out": 2.5e-05,
+"p": "openai"
+},
+"o1": {
+"cr": 7.5e-06,
+"cw": null,
+"in": 1.5e-05,
+"out": 6e-05,
+"p": "openai"
+},
+"o1-2024-12-17": {
+"cr": 7.5e-06,
+"cw": null,
+"in": 1.5e-05,
+"out": 6e-05,
+"p": "openai"
+},
+"o1-pro": {
+"cr": null,
+"cw": null,
+"in": 0.00015,
+"out": 0.0006,
+"p": "openai"
+},
+"o1-pro-2025-03-19": {
+"cr": null,
+"cw": null,
+"in": 0.00015,
+"out": 0.0006,
+"p": "openai"
+},
+"o3": {
+"cr": 5e-07,
+"cw": null,
+"in": 2e-06,
+"out": 8e-06,
+"p": "openai"
+},
+"o3-2025-04-16": {
+"cr": 5e-07,
+"cw": null,
+"in": 2e-06,
+"out": 8e-06,
+"p": "openai"
+},
+"o3-deep-research": {
+"cr": 2.5e-06,
+"cw": null,
+"in": 1e-05,
+"out": 4e-05,
+"p": "openai"
+},
+"o3-deep-research-2025-06-26": {
+"cr": 2.5e-06,
+"cw": null,
+"in": 1e-05,
+"out": 4e-05,
+"p": "openai"
+},
+"o3-mini": {
+"cr": 5.5e-07,
+"cw": null,
+"in": 1.1e-06,
+"out": 4.4e-06,
+"p": "openai"
+},
+"o3-mini-2025-01-31": {
+"cr": 5.5e-07,
+"cw": null,
+"in": 1.1e-06,
+"out": 4.4e-06,
+"p": "openai"
+},
+"o3-pro": {
+"cr": null,
+"cw": null,
+"in": 2e-05,
+"out": 8e-05,
+"p": "openai"
+},
+"o3-pro-2025-06-10": {
+"cr": null,
+"cw": null,
+"in": 2e-05,
+"out": 8e-05,
+"p": "openai"
+},
+"o4-mini": {
+"cr": 2.75e-07,
+"cw": null,
+"in": 1.1e-06,
+"out": 4.4e-06,
+"p": "openai"
+},
+"o4-mini-2025-04-16": {
+"cr": 2.75e-07,
+"cw": null,
+"in": 1.1e-06,
+"out": 4.4e-06,
+"p": "openai"
+},
+"o4-mini-deep-research": {
+"cr": 5e-07,
+"cw": null,
+"in": 2e-06,
+"out": 8e-06,
+"p": "openai"
+},
+"o4-mini-deep-research-2025-06-26": {
+"cr": 5e-07,
+"cw": null,
+"in": 2e-06,
+"out": 8e-06,
+"p": "openai"
+}
+}
+}

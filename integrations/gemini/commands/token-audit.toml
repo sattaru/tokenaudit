@@ -1,0 +1,7 @@
+description = "Audit where AI tokens went and whether they were worth it"
+prompt = """
+Run `tokenaudit review --out ./token-audit {{args}}` (install with `pip install git+https://github.com/sattaru/tokenaudit` if missing).
+Then read ./token-audit/token-audit.json and follow the review steps in the token-audit context file:
+lead with total spend and the biggest lever, give a worth-it verdict per project, the top 3 findings with fixes,
+and ask which fix to work on first.
+"""

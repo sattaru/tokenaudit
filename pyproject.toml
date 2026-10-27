@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tokenaudit"
+version = "0.1.0"
+description = "See where your AI tokens go across Claude Code, Codex, Gemini CLI and the OpenAI/Anthropic/Gemini SDKs, and whether they were worth it."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Praveen Sattaru" }]
+dependencies = []
+keywords = ["llm", "tokens", "cost", "claude-code", "openai", "gemini", "anthropic", "finops"]
+
+[project.optional-dependencies]
+test = ["pytest", "openai", "anthropic", "google-genai"]
+
+[project.scripts]
+tokenaudit = "tokenaudit.cli:main"
+
+[tool.setuptools]
+packages = ["tokenaudit"]
+
+[tool.setuptools.package-data]
+tokenaudit = ["prices_fallback.json"]
