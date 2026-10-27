@@ -11,7 +11,19 @@ requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Praveen Sattaru" }]
 dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Software Development :: Libraries",
+]
 keywords = ["llm", "tokens", "cost", "claude-code", "openai", "gemini", "anthropic", "finops"]
+
+[project.urls]
+Homepage = "https://github.com/sattaru/tokenaudit"
+Issues = "https://github.com/sattaru/tokenaudit/issues"
+Changelog = "https://github.com/sattaru/tokenaudit/blob/main/CHANGELOG.md"
 
 [project.optional-dependencies]
 test = ["pytest", "openai", "anthropic", "google-genai"]
